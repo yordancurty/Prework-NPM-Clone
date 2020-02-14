@@ -1,0 +1,303 @@
+/*GENERAL SPECIFICATIONS*/
+
+*{
+    font-family:  Poppins,sans-serif;
+    list-style-type: none;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+
+
+p{
+    text-align: center;
+}
+
+
+
+
+
+/*TOP SIDE SPECIFICATIONS*/
+
+.uperDivInHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.divUpsideNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.DivInDownDiv{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+    align-content: center;
+    background-color: #F1F0F0;
+    margin-bottom: ;
+}
+
+.downDivInHeadder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.ulInUperDivInHeader{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+    align-content: center;
+}
+
+.ulInUperDivInHeader li{
+    padding: 0px 5px 0px 5px;
+}
+
+.blackheartImg{
+  width: 12px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.npmLogoImg{
+    width: 40px;
+    padding-left: 25px;
+    padding-right: 5px;
+}
+
+.magnifyerImg{
+    width: 10px;
+    padding-bottom: 5px;
+}
+
+.npmNameOnTop{
+    font-size: 7px;
+}
+
+.nav{
+    font-size: 7px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    
+    color: black
+}
+
+.searchBarTxt{
+    font-size:7px;
+    margin-right:0px
+}
+
+.search{
+    background-color: rgb(241, 240, 240);
+    border: 1px solid rgb(243, 243, 243);
+    margin-left:0px;
+    width: 1100px;
+}
+
+.buttonS{
+    color: white;
+    font-size: 7px;
+    padding: 7px 9px 6px 9px;
+    background-color: red;
+    border: none;
+}
+
+.joinButton{
+    font-size: 7px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    
+}
+
+.logInButton{
+    font-size: 7px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    
+    
+}
+
+.downDivInHeadder p{
+    margin: unset;
+}
+
+
+/*UPER MIDDLE SPECIFICATIONS*/
+
+.sectionUperMiddle{
+    background-color: rgb(240, 234, 240);
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.hOneheading{
+    font-weight: 920;
+    font-size: 35px;
+}
+
+.paragraf{
+    font-size: 10px;
+    width: 240px;
+    text-align: center
+    
+}
+
+.divInUperMiddle{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.seePlansButton{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px 30px 10px 30px ;
+    font-size:9px;
+    font-weight: 700;
+    margin-right: 10px;
+    
+}
+
+.joinForFreeButton{
+   font-size: 9px; 
+   background-color: white;
+   text-align: center;
+   padding: 10px 25px 10px 25px ;
+   margin-left: 10px;
+}
+
+
+
+
+
+/*DOWN MIDDLE SPECIFICATIONS*/
+
+.hexagonImg{
+    width: 110px;
+    padding-top: 40px;
+}
+
+.sectionDownMiddle{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.txtOneUnderHexagon{
+    background-color: rgb(255, 218, 163);
+    
+}
+
+.txtTwoUnderHexagon{
+    text-align: center;
+    width: 435px;
+    font-size: 10px;
+}
+
+
+/*BOTTOM SPECIFICATIONS*/
+
+.zeroConfImg{
+    width: 20px;
+}
+
+.teamManagImg{
+    width: 20px;
+}
+
+.familiarFeatImg{
+    width: 20px;
+}
+
+.npmAuditImg{
+    width: 20px;
+}
+
+.secBottom{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    padding-top: 60px;
+}
+
+.secBottom h2{
+    color:red;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.secBottom p{
+    font-size: 8px;
+    width: 150px;
+}
+
+.secBottomDivs{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    
+}
+
+.footer{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    padding-top: 40px;
+}
+
+.createAnOrgButton{
+    color: white;
+    font-size: 9px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    width: 170px;
+}
